@@ -10,7 +10,7 @@ class Mainscreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: AppContant.appMainColor,
         title: Text(AppContant.appName),
-        centerTitle: true,
+        centerTitle: false,
       ),
     );
   }
