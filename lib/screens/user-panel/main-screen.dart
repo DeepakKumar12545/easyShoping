@@ -6,7 +6,7 @@ class Mainscreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Container(
       appBar: AppBar(
         backgroundColor: AppContant.appMainColor,
         title: Text(AppContant.appName),
